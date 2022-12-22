@@ -28,5 +28,5 @@ jobs:
         python-version: '3.11' 
     - run: ls 
     - run: pip install -r requirements.txt
-    - run: robot .\BDD\features\BuscaCepAPIRequests.robot
+    - run: robot BDD/features/BuscaCepAPIRequests.robot
 
